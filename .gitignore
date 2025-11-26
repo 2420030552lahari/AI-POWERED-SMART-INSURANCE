@@ -1,0 +1,14 @@
+node_modules
+.next
+.vercel
+out
+dist
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.production
+.env.development
+project.zip
+

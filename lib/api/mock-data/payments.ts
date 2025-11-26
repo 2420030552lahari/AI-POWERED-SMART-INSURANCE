@@ -1,0 +1,156 @@
+export type PaymentStatus = "paid" | "upcoming" | "overdue" | "pending"
+
+export type Payment = {
+  id: string
+  policyId: string
+  policyName: string
+  policyNumber: string
+  userId: string
+  amount: number
+  dueDate: string
+  status: PaymentStatus
+  paidDate?: string
+  paymentMethod?: string
+  transactionId?: string
+}
+
+export const mockPayments: Payment[] = [
+  {
+    id: "pay_001",
+    policyId: "pol_001",
+    policyName: "Comprehensive Health Insurance",
+    policyNumber: "HLT/2024/001234",
+    userId: "usr_001",
+    amount: 15000,
+    dueDate: "2024-12-15",
+    status: "upcoming",
+  },
+  {
+    id: "pay_002",
+    policyId: "pol_002",
+    policyName: "Comprehensive Car Insurance",
+    policyNumber: "VEH/2024/005678",
+    userId: "usr_001",
+    amount: 8500,
+    dueDate: "2025-02-28",
+    status: "upcoming",
+  },
+  {
+    id: "pay_003",
+    policyId: "pol_003",
+    policyName: "Term Life Insurance",
+    policyNumber: "LIFE/2023/009876",
+    userId: "usr_001",
+    amount: 12000,
+    dueDate: "2024-05-15",
+    status: "paid",
+    paidDate: "2024-05-10",
+    paymentMethod: "UPI",
+    transactionId: "TXN20240510123456",
+  },
+  {
+    id: "pay_004",
+    policyId: "pol_004",
+    policyName: "Home Shield Insurance",
+    policyNumber: "HOME/2024/112233",
+    userId: "usr_001",
+    amount: 6500,
+    dueDate: "2025-01-25",
+    status: "upcoming",
+  },
+  {
+    id: "pay_005",
+    policyId: "pol_005",
+    policyName: "International Travel Insurance",
+    policyNumber: "TRV/2024/445566",
+    userId: "usr_001",
+    amount: 3200,
+    dueDate: "2024-12-15",
+    status: "upcoming",
+  },
+  {
+    id: "pay_006",
+    policyId: "pol_006",
+    policyName: "Senior Citizen Health Plan",
+    policyNumber: "HLT/2023/778899",
+    userId: "usr_001",
+    amount: 18500,
+    dueDate: "2024-11-01",
+    status: "paid",
+    paidDate: "2024-10-28",
+    paymentMethod: "Net Banking",
+    transactionId: "TXN20241028789012",
+  },
+  {
+    id: "pay_007",
+    policyId: "pol_007",
+    policyName: "Two Wheeler Insurance",
+    policyNumber: "VEH/2023/334455",
+    userId: "usr_001",
+    amount: 2800,
+    dueDate: "2024-08-20",
+    status: "paid",
+    paidDate: "2024-08-18",
+    paymentMethod: "Credit Card",
+    transactionId: "TXN20240818345678",
+  },
+  {
+    id: "pay_008",
+    policyId: "pol_008",
+    policyName: "Child Education Plan",
+    policyNumber: "LIFE/2024/667788",
+    userId: "usr_001",
+    amount: 25000,
+    dueDate: "2025-03-15",
+    status: "upcoming",
+  },
+  {
+    id: "pay_009",
+    policyId: "pol_001",
+    policyName: "Comprehensive Health Insurance",
+    policyNumber: "HLT/2024/001234",
+    userId: "usr_001",
+    amount: 15000,
+    dueDate: "2024-01-15",
+    status: "paid",
+    paidDate: "2024-01-10",
+    paymentMethod: "Debit Card",
+    transactionId: "TXN20240110567890",
+  },
+  {
+    id: "pay_010",
+    policyId: "pol_004",
+    policyName: "Home Shield Insurance",
+    policyNumber: "HOME/2024/112233",
+    userId: "usr_001",
+    amount: 6500,
+    dueDate: "2024-02-10",
+    status: "paid",
+    paidDate: "2024-02-08",
+    paymentMethod: "UPI",
+    transactionId: "TXN20240208901234",
+  },
+  {
+    id: "pay_011",
+    policyId: "pol_002",
+    policyName: "Comprehensive Car Insurance",
+    policyNumber: "VEH/2024/005678",
+    userId: "usr_001",
+    amount: 8500,
+    dueDate: "2024-03-15",
+    status: "paid",
+    paidDate: "2024-03-12",
+    paymentMethod: "Net Banking",
+    transactionId: "TXN20240312234567",
+  },
+  {
+    id: "pay_012",
+    policyId: "pol_010",
+    policyName: "Tenant Insurance",
+    policyNumber: "HOME/2023/556677",
+    userId: "usr_001",
+    amount: 3500,
+    dueDate: "2024-11-15",
+    status: "overdue",
+  },
+]
