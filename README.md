@@ -20,7 +20,7 @@
   <a href="#-how-it-works">How it works</a>
 </p>
 
-<img src="./public/modern-insurance-dashboard-interface.jpg" alt="Smart Insurance Web App mockups" width="900" />
+<img src="./public/assets/home_page.png" alt="Smart Insurance Web App hero UI" width="900" />
 
 </div>
 
@@ -101,10 +101,13 @@ smart-insurance-web-app
 
 | Preview | Description |
 | ------- | ----------- |
-| ![Animated flow](https://placehold.co/900x500/0f172a/ffffff.gif?text=Smart+Insurance+Workflow) | **Micro-interactions GIF** — demonstrates onboarding, quick quotes, and AI helper responses in one shot. Replace with your ScreenToGif export when ready. |
-| ![Dashboard mockups](./public/modern-insurance-dashboard-interface.jpg) | **Multi-device mockups** — hero dashboard with KPI ribbons, policy cards, and contextual drawers across desktop + mobile. |
+| ![Home Page](./public/assets/home_page.png) | **Home Page** — Modern landing page with AI-powered quote search, product grid, and quick actions. Features soft pastel design with smooth animations. |
+| ![Customer Dashboard](./public/assets/dashboard.png) | **Customer Dashboard** — Complete policy overview with stats cards, active policies, recent claims, and quick action buttons. Real-time data visualization. |
+| ![AI Claims Filing](./public/assets/claims_filing.png) | **AI-Powered Claims** — Intelligent claims processing with OCR document scanning, auto-fill capabilities, and 5 policy options. Supports multiple document uploads. |
+| ![Network Providers](./public/assets/network_providers.png) | **Network Providers** — Search 5000+ hospitals and garages with real-time filtering, ratings, cashless badges, and interactive map visualization. |
+| ![Quote Flow](./public/assets/quote_flow.png) | **Policy Purchase Flow** — Step-by-step guided process for buying insurance with vehicle details form, plan comparison, and transparent pricing. |
 
-> Need more assets? Drop exports into `public/assets/` and update the table paths.
+> **Note:** All screenshots showcase the actual application running at `http://localhost:3000`. The design features a custom soft pastel color palette, rounded corners, and premium UI components.
 
 ---
 
