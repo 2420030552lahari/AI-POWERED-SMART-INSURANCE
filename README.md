@@ -195,10 +195,4 @@ git push origin feat/awesome-upgrade
 
 ---
 
-## 📄 License
-
-MIT © 2025 Lahari Pokuri. Commercial usage allowed with attribution.
-
----
-
 _This README ships with centered hero, badges, banner mockups, GIF placeholders, install steps, folder map, tech stack icons, diagrams, and structured formatting to look great on GitHub._ 
